@@ -8,23 +8,7 @@
 | --- | --- |
 | Name: | Adding an item to the cart via header menu |
 | Preconditions: | Internet connection, Browser Google Chrome v.106.0.5249.119, opened https://www.samsung.com/us/, user is pre-registered on the site |
-| Steps: | 1. Select Mobile section from the header menu
-
-2. Select Featured subsection from the expanded list
-
-3. Select Galaxy Z Fold4 device
-
-4. Click Buy Now button
-
-5. Choose the following options:
-Verizon carrier
-512GB Storage
-Graygreen color
-No trade-in devices
-No coverage
-One-time payment option
-
-6. Click skip add-ons button |
+| Steps: | 1. Select *Mobile* section from the header menu <br><br>2. Select *Featured* subsection from the expanded list<br><br>3. Select *Galaxy Z Fold4* device<br><br>4. Click *Buy Now* button<br><br>5. Choose the following options:<br>Verizon carrier<br>512GB Storage<br>Graygreen color<br>No trade-in devices<br>No coverage<br>One-time payment option<br><br>6. Click *skip add-ons* button |
 | Expected result: | Item has been successfully added to the cart |
 
 ## Test Case 2
@@ -33,26 +17,7 @@ One-time payment option
 | --- | --- |
 | Name: | Adding an Galaxy Z Flip4 item to the cart via Finesse your Flip feature |
 | Preconditions: | Internet connection, Browser Google Chrome v.106.0.5249.119, opened https://www.samsung.com/us/, user is pre-registered on the site |
-| Steps: | 1. Scroll down to Finesse you Flip section and click Customize now button
-
-2. In Galaxy Flip4 Bespoke Studio editor click Front button
-
-3. Choose the following options:
-White Front
-Black Frame 
-White Back
-
-4. Click Buy Now button
-
-5. Choose the following options:
-Verizon carrier
-512GB Storage
-Graygreen color
-No trade-in devices
-No coverage
-One-time payment option
-
-6. Click skip add-ons button |
+| Steps: | 1. Scroll down to *Finesse you Flip* section and click *Customize now* button<br><br>2. In Galaxy Flip4 Bespoke Studio editor click *Front* button<br><br>3. Choose the following options:<br>White Front<br>Black Frame <br>White Back<br><br>4. Click *Buy Now* button<br><br>5. Choose the following options:<br>Verizon carrier<br>512GB Storage<br>Graygreen color<br>No trade-in devices<br>No coverage<br>One-time payment option<br>6. Click *skip add-ons* button |
 | Expected result: | Item has been successfully added to the cart |
 
 ## Test Case 3
@@ -79,8 +44,7 @@ One-time payment option
 | --- | --- |
 | Name: | Viewing contact us page |
 | Preconditions: | Internet connection, Browser Google Chrome v.106.0.5249.119, opened https://www.samsung.com/us/ |
-| Steps: | 1. Open the site and close all popups in the way that content is clickable
-2. Scroll down to footer, find the support section and click Contact Us item |
+| Steps: | 1. Open the site and close all popups in the way that content is clickable<br><br>2. Scroll down to footer, find the support section and click *Contact Us* item |
 | Expected result: | Header top links, logo image, header navigation bar, search, shopping bag, section greeting, Choose a product, footer navigation, footer copyright blocks are rendered |
 
 ## Test Case 6
@@ -89,10 +53,8 @@ One-time payment option
 | --- | --- |
 | Name: | Searching for a nonexistent item |
 | Preconditions: | Internet connection, Browser Google Chrome v.106.0.5249.119, opened https://www.samsung.com/us/ |
-| Steps: | 1. Click search icon in header
-2. Type"searchingfornothing” and press Enter for searching for a query |
-| Expected result: | Page with text We're sorry, your search "searchingfornothing" didn't return any results.
-Check the spelling and try your search again shown. |
+| Steps: | 1. Click search icon in header<br><br>2. Type "searchingfornothing” and press Enter for searching for a query |
+| Expected result: | Page with text We're sorry, your search "searchingfornothing" didn't return any results.<br>Check the spelling and try your search again shown. |
 
 ## Test Case 7
 
@@ -100,8 +62,7 @@ Check the spelling and try your search again shown. |
 | --- | --- |
 | Name: | Searching for an existent item |
 | Preconditions: | Internet connection, Browser Google Chrome v.106.0.5249.119, opened https://www.samsung.com/us/ |
-| Steps: | 1. Click search icon in header
-2. Type"Galaxy Z Flip4” and press Enter for searching for a query |
+| Steps: | 1. Click search icon in header<br><br>2. Type "Galaxy Z Flip4” and press Enter for searching for a query |
 | Expected result: | Page with Galaxy Z Flip4 device has been successfully opened. |
 
 ## Test Case 8
@@ -110,8 +71,7 @@ Check the spelling and try your search again shown. |
 | --- | --- |
 | Name: | Searching for a page via search panel |
 | Preconditions: | Internet connection, Browser Google Chrome v.106.0.5249.119, opened https://www.samsung.com/us/ |
-| Steps: | 1. Click search icon in header
-2. Type"Contact Support” and press Enter for searching for a query |
+| Steps: | 1. Click search icon in header<br><br>2. Type "Contact Support” and press Enter for searching for a query |
 | Expected result: | Contact Support page has been successfully opened. |
 
 ## Test Case 9
@@ -120,9 +80,7 @@ Check the spelling and try your search again shown. |
 | --- | --- |
 | Name: | Item type filtering check |
 | Preconditions: | Internet connection, Browser Google Chrome v.1106.0.5249.119, opened https://www.samsung.com/us/ |
-| Steps: | 1. Click search icon in header
-2. Type"Watch” and press Enter for searching for a query
-3. Сheck Accessories in the left filtering panel |
+| Steps: | 1. Click search icon in header<br><br>2. Type "Watch” and press Enter for searching for a query<br><br>3. Сheck *Accessories* in the left filtering panel |
 | Expected result: | Items have been successfully filtered: only accessories are displayed and additional filter actions appeared |
 
 ## Test Case 10
@@ -131,5 +89,5 @@ Check the spelling and try your search again shown. |
 | --- | --- |
 | Name: | Checking whether the language matches the selected region |
 | Preconditions: | Internet connection, Browser Google Chrome v.106.0.5249.119, opened https://www.samsung.com/ru/function/ipredirection/ipredirectionLocalList/ |
-| Steps: | 1. Click Polska/Polski |
+| Steps: | 1. Click *Polska/Polski* |
 | Expected result: | Page https://www.samsung.com/pl/ with Polish localization successfully opened |
