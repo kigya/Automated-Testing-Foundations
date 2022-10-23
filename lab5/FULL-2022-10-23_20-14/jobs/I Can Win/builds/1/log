@@ -1,0 +1,22 @@
+Started by user [8mha:////4PGtUGe8BhFgzarQk1EVgBcOmLz04R9kf1ohj4+D+PnQAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZu/dLi1CL97Mz0ykQAWKA0JMAAAAA=[0mKirill Borichevskiy
+Running as SYSTEM
+Building in workspace /Users/kirillborichevskiy/.jenkins/workspace/I Can Win
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci.git
+ > /usr/bin/git init /Users/kirillborichevskiy/.jenkins/workspace/I Can Win # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.37.0 (Apple Git-136)'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 71518a34152cb6c6039a2443ced60af30a31f14c (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 71518a34152cb6c6039a2443ced60af30a31f14c # timeout=10
+Commit message: "Merge pull request #16 from EvgeniyRozhenko/fix-pom-utf8"
+First time build. Skipping changelog.
+Finished: SUCCESS

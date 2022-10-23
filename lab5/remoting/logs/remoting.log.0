@@ -1,0 +1,27 @@
+Oct 23, 2022 8:03:34 PM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: M-Prolocal
+Oct 23, 2022 8:03:34 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3063.v26e24490f041
+Oct 23, 2022 8:03:34 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /Users/kirillborichevskiy/Documents/University/Testing/Automated-Testing-Foundations/lab5/remoting as a remoting work directory
+Oct 23, 2022 8:03:34 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Oct 23, 2022 8:03:35 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Oct 23, 2022 8:03:35 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    65389
+  Identity:      d2:a7:8a:66:e6:53:17:ac:84:e5:44:2d:90:dc:e8:d6
+Oct 23, 2022 8:03:35 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Oct 23, 2022 8:03:35 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:65389
+Oct 23, 2022 8:03:35 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Oct 23, 2022 8:03:35 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Oct 23, 2022 8:03:35 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: d2:a7:8a:66:e6:53:17:ac:84:e5:44:2d:90:dc:e8:d6
+Oct 23, 2022 8:03:35 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
