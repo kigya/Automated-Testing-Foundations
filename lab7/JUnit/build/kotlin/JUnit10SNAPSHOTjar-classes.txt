@@ -1,1 +1,0 @@
-/Users/kirillborichevskiy/Downloads/JUnit/build/classes/kotlin/main/Calculator.class:/Users/kirillborichevskiy/Downloads/JUnit/build/classes/kotlin/main/Gender.class:/Users/kirillborichevskiy/Downloads/JUnit/build/classes/kotlin/main/Person.class
