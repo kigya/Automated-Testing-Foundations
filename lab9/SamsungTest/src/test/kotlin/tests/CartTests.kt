@@ -18,7 +18,7 @@ class CartTests : CommonConditions() {
      * Steps:
      *      1. Click Cart icon
      * Expected result:
-     *      Your cart is empty message shown
+     *      Contunie shopping button is displayed
      */
     @Test
     fun viewingEmptyCart() {
