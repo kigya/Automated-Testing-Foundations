@@ -2,7 +2,7 @@ package tests
 
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.MatcherAssert.assertThat
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import page.MainPage
 
 class CartTests : CommonConditions() {
