@@ -2,9 +2,9 @@ package tests.cart
 
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.MatcherAssert.assertThat
-import org.junit.Test
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Tag
+import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.parallel.Execution
 import org.junit.jupiter.api.parallel.ExecutionMode
 import page.main.MainPage

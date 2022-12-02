@@ -1,8 +1,8 @@
 package tests
 
 import driver.Driver
-import org.junit.After
-import org.junit.Before
+import org.junit.jupiter.api.AfterEach
+import org.junit.jupiter.api.BeforeEach
 import org.openqa.selenium.WebDriver
 
 open class CommonConditions {
@@ -10,12 +10,12 @@ open class CommonConditions {
     protected val driver: WebDriver
         get() = _driver!!
 
-    @Before
+    @BeforeEach
     fun setUp() {
         _driver = Driver.get()
     }
 
-    @After
+    @AfterEach
     fun stopBrowser() {
         Driver.closeDriver()
     }
