@@ -13,7 +13,7 @@ import java.time.Duration
 
 class GalaxyZFold4Page(driver: WebDriver) : Page(driver){
 
-    @FindBy(xpath = XPath.Galaxy_Z_Fold4.TITLE)
+    @FindBy(className = "deviceTitle")
     private lateinit var title: WebElement
 
     @FindBy(xpath = XPath.Galaxy_Z_Fold4.VERIZON_CARRIER)
